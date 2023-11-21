@@ -1,0 +1,61 @@
+body {
+    background-image: url("./assets/background_bbd.jpeg");
+} 
+.title {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin: 2vh 2vw;
+}
+
+.intro {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto Slab;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 8vh 8vw;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 15vw ;
+}
+.container .instructions {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto Slab;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 1vw 1vh;
+}
+button {
+    height: 10vh;
+    width: 36vw;
+    border-radius: 40px;
+    margin: 2vh 2vw;
+    
+
+}
+
+.buttons {
+    padding: 5vw 5vh;
+}
+.heading {
+    margin: 12px 12px;
+    text-align: center;
+    font-size: 30px;
+}
+.upload {
+    width: 3vw;
+    height: 3vh;
+}
+.options {
+    width:3vw;
+    height: 3vh;
+}
