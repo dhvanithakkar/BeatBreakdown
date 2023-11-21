@@ -1,29 +1,18 @@
 # BeatBreakdown
 WE Project 1
 
-Citation Required: 
+# Audio Source Separation Website
 
-If you use the MUSDB dataset for your research - Cite the MUSDB18 Dataset
+## How does it work?
 
-@misc{MUSDB18HQ,
-  author       = {Rafii, Zafar and
-                  Liutkus, Antoine and
-                  Fabian-Robert St{\"o}ter and
-                  Mimilakis, Stylianos Ioannis and
-                  Bittner, Rachel},
-  title        = {{MUSDB18-HQ} - an uncompressed version of MUSDB18},
-  month        = dec,
-  year         = 2019,
-  doi          = {10.5281/zenodo.3338373},
-  url          = {https://doi.org/10.5281/zenodo.3338373}
-}
-If compare your results with SiSEC 2018 Participants - Cite the SiSEC 2018 LVA/ICA Paper
+### Upload Your Track
+1. Select a music file from your collection in MP3 or WAV format.
+2. Upload it using our user-friendly interface.
 
-@inproceedings{SiSEC18,
-  author="St{\"o}ter, Fabian-Robert and Liutkus, Antoine and Ito, Nobutaka",
-  title="The 2018 Signal Separation Evaluation Campaign",
-  booktitle="Latent Variable Analysis and Signal Separation:
-  14th International Conference, LVA/ICA 2018, Surrey, UK",
-  year="2018",
-  pages="293--305"
-}
+### Uncover the Layers
+1. After uploading your track, our algorithms separate vocals and instruments.
+2. Reveal the individual music components.
+
+### Enhance Your Experience
+1. Isolate vocals or focus on instruments to explore.
+
