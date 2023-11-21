@@ -57,16 +57,11 @@ low-quality audio recordings.
 % Approach frame
 \begin{frame}
   \frametitle{Approach}
-  Our AI music application follows these key steps:
   \begin{enumerate}
-    \item Music Sampling: Access a vast database of musical samples across 
-genres. We picked the musdb dataset to train and test our model.
-    \item Music Creation: Allow users to modify samples, adjust tempo, key, 
-and instrumentation to create unique compositions.
-    \item Instrumental Learning: Provide musical notes for the music to 
-support beginners.
-    \item Audio Restoration: Utilize cutting-edge noise reduction and 
-filtering techniques for enhancing audio quality.
+    \item Developing the Frontend
+    \item Storage of datasets in the Backend 
+    \item CNN Model for classifying instruments present in the music
+    \item Understanding the workings of Spleeter and Demucs models
   \end{enumerate}
 \end{frame}
 
@@ -75,10 +70,25 @@ filtering techniques for enhancing audio quality.
   \frametitle{Tech Stack}
   The application's tech stack includes:
   \begin{itemize}
-    \item Programming Languages: Python
+    \item Programming Languages: Python, Javascript
     \item AI Frameworks: TensorFlow
-    \item Web Development: HTML, CSS, Figma
-    \item Audio Processing: Librosa
+    \item Web Development: HTML, CSS, React.js, Django, Figma
+    \item Audio Processing: Librosa, Spleeter, Demucs
+    \item Dataset: musDB
+  \end{itemize}
+\end{frame}
+
+
+% Future Scope frame
+\begin{frame}
+  \frametitle{Future Scope}
+  Future enhancements and features include:
+  \begin{itemize}
+    \item Expand the musical instruments the AI can detect.
+    \item Generate accurate music notes for the music file provided for easier 
+compositions and learnings.
+    \item Integration with cloud-based services for quicker runtimes and reliability.
+    \item Storage of previously extracted audio in a user profile.
   \end{itemize}
 \end{frame}
 
@@ -88,8 +98,8 @@ filtering techniques for enhancing audio quality.
   \frametitle{Challenges}
   Challenges faced by us:
   \begin{itemize}
-    \item Developing a diverse and extensive music sample library.
-    \item Designing an adaptive and interactive instrumental learning system.
+    \item Choosing the model to be used.
+    \item Integration of ML models with Frontend and Backend portions.
   \end{itemize}
 %   \textbf{Learnings:}
 %   \begin{itemize}
@@ -98,23 +108,6 @@ filtering techniques for enhancing audio quality.
 % signal processing techniques.
 %     \item User feedback and engagement are crucial for continuous improvement.
 %   \end{itemize}
-\end{frame}
-
-% Future Scope frame
-\begin{frame}
-  \frametitle{Future Scope}
-  Future enhancements and features include:
-  \begin{itemize}
-    \item Optimizing AI models for real-time audio processing.
-    \item Expand the musical instruments the AI can detect .
-    \item Generate accurate music notes for the music file provided for easier 
-compositions and learnings.
-    \item Integration with cloud-based services for seamless data storage and 
-sharing.
-    \item Expansion of instrument tutorials and styles to cater to diverse 
-musical interests.
-\item Storage of previously extracted audio in a user profile.
-  \end{itemize}
 \end{frame}
 
 % Conclusion frame
